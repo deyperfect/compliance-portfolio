@@ -1,0 +1,47 @@
+[
+    {  
+        "id": 1,
+        "title": "Activity Dashboard for Compliance and Collections",
+        "description": "This project showcases a dynamic task management dashboard built using Google Sheets and Google Forms. It was designed to streamline daily workload tracking in a compliance and collections environment.",
+        "image": "/images/dashboard.webp",
+        "alt": "Activity Dashboard for Compliance & Collections Thumbnail",
+        "link": "/activity-dashboard",
+        "external": false
+    },
+    {
+        "id": 2,
+        "title": "Collections Escalation Workflow",
+        "description": "A visual decision-making workflow that standardizes the review and escalation of past-due accounts. By transforming a complex operational process into a clear, repeatable guide, it improves consistency, collaboration, and onboarding across teams.",
+        "image": "/images/collections.webp",
+        "alt": "Collections Escalation Workflow Thumbnail",
+        "link": "/collections-escalation-workflow",
+        "external": false
+    },
+    {
+        "id": 3,
+        "title": "Virtual Numbers Regulatory Database",
+        "description": "A centralized knowledge base that consolidates country-specific regulations, documentation requirements, and supplier information into a single searchable resource, enabling support teams to respond to customer inquiries faster and with greater accuracy.",
+        "image": "/images/did.webp",
+        "alt": "Virtual Numbers Regulatory Database Thumbnail",
+        "link": "/virtual-numbers",
+        "external": false
+    },
+    {
+        "id": 4,
+        "title": "QA Evaluation Form Project",
+        "description": "Designed and developed a comprehensive QA Evaluation Form used to assess the quality of email and chat interactions for a customer support team. The form incorporates weighted scoring, N/A logic, and structured coaching documentation to ensure fair evaluations and improve agent performance.",
+        "image": "/images/QAForm.webp",
+        "alt": "QA Evaluation Form Project Thumbnail",
+        "link": "/QA-form",
+        "external": false
+    },
+    {
+        "id": 5,
+        "title": "Regulatory Compliance Specialization Projects",
+        "description": "Throughout the Regulatory Compliance Specialization offered by the University of Pennsylvania via Coursera, I completed four projects that demonstrate my ability to identify risks, analyze compliance requirements, and design effective mitigation strategies.",
+        "image": "/images/compliance.webp",
+        "alt": "Regulatory Compliance Specialization Projects Thumbnail",
+        "link": "/regulatory-compliance",
+        "external": true
+    }
+]

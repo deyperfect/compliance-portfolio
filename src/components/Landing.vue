@@ -1,147 +1,280 @@
 <template>
   <section id="landing" class="landing-section">
-    <div class="container mx-auto">
-      <div class="row align-items-center">
-        <div class="col-lg-8 mx-auto">
-          
-          <h1 class="landing-title">Driving operational excellence with integrity.</h1>
+    <div class="container content-width">
 
-          <p id="par1" class="landing-subtitle">
-            I&apos;m a compliance and operations professional specializing in regulatory compliance, KYC verification, investigations, quality assurance, and process improvement. I enjoy solving operational challenges, improving workflows, and maintaining accurate, compliant processes through analytical thinking and attention to detail. This portfolio highlights projects, process documentation, and work samples that reflect my experience and commitment to continuous improvement.
+      <div class="row mb-4">
+        <div class="col-lg-7">
+          <p class="landing-kicker">
+            COMPLIANCE & OPERATIONS
           </p>
         </div>
+      </div>
 
-        <div class="mx-auto" id="landing-button">
-          <a href="#projects" class="btn btn-cta">View My Work</a>
-          <a
-            href="/resume.pdf"
-            target="_blank"
-            class="btn btn-cta"
-            >View Resume</a
-          >
+      <div class="row align-items-center gy-5">
+
+        <!-- Left Column -->
+        <div class="col-lg-7">
+
+          <h1 class="landing-title">
+            Improving operations through compliance.
+          </h1>
+
+          <p class="landing-subtitle">
+            Compliance and operations professional specializing in
+            regulatory compliance, KYC verification, investigations,
+            quality assurance, and process improvement.
+          </p>
+
+          <p class="landing-description">
+            I design structured workflows, documentation, and compliance
+            frameworks that improve operational efficiency while maintaining
+            accuracy, accountability, and regulatory compliance.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary-custom">
+              View Case Studies
+            </a>
+
+            <a
+              href="/resume.pdf"
+              target="_blank"
+              class="btn btn-secondary-custom"
+            >
+              View Resume
+            </a>
+          </div>
+
         </div>
+
+        <!-- Right Column -->
+        <div class="col-lg-5">
+
+          <div class="expertise-box">
+
+            <p class="expertise-title">
+              Core Expertise
+            </p>
+
+            <div class="expertise-item">
+              <span></span>
+              Regulatory Compliance
+            </div>
+
+            <div class="expertise-item">
+              <span></span>
+              Process Improvement
+            </div>
+
+            <div class="expertise-item">
+              <span></span>
+              Quality Assurance
+            </div>
+
+            <div class="expertise-item">
+              <span></span>
+              Investigations
+            </div>
+
+          </div>
+
+        </div>
+
       </div>
     </div>
   </section>
 </template>
 
 <style scoped>
-/* Landing Section Start*/
+
+/* ===========================
+   Landing Section
+=========================== */
+
 .landing-section {
-  background-color: var(--color-primary);
-  padding: 100px 0;
+  background: var(--color-primary);
+  padding: 120px 0 80px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 
+.content-width {
+  margin: 0 auto;
+}
+
+/* ===========================
+   Typography
+=========================== */
+
+.landing-kicker {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  margin-bottom: 1rem;
+}
 
 .landing-title {
-  font-weight: 600;
+  font-size: 2.5rem;
+  line-height: 1.1;
+  font-weight: 700;
   color: var(--color-secondary);
-  margin-bottom: 3rem;
-  padding: 0 2.3rem;
-  text-align: left;
-  animation: fadeInUp 1s ease;
+  margin-bottom: 1.5rem;
 }
 
 .landing-subtitle {
-  font-family: "Figtree";
-  text-align: justify;
   font-size: 1rem;
-  padding: 0 2.3rem;
+  line-height: 1.8;
+  color: var(--color-secondary);
+  margin-bottom: 1.25rem;
+}
+
+.landing-description {
+  font-size: 0.95rem;
+  line-height: 1.8;
   color: var(--color-tertiary);
-  animation: fadeInUp 1s ease 0.2s backwards;
+  margin-bottom: 2rem;
 }
 
-#par1 {
-  margin-bottom: 3rem;
-}
+/* ===========================
+   Buttons
+=========================== */
 
-.btn-cta {
-  background-color: var(--color-accent);
-  border: none;
-  color: var(--color-primary);
-  padding: 0.5rem 1.5rem;
-  font-size: 1rem;
-  font-weight: 600;
-  border-radius: 50px;
-  transition: all 0.3s ease;
-  animation: fadeInUp 1s ease 0.4s backwards;
-}
-
-#landing-button a:first-child:hover {
-  background-color: var(--color-tertiary);
-  transform: translateY(-3px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-}
-
-#landing-button a:last-child:hover {
-  background-color: var(--color-accent);
-  transform: translateY(-3px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-}
-
-#landing-button {
+.hero-buttons {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   gap: 1rem;
 }
 
-#landing-button a:last-child {
-  background-color: var(--color-tertiary);
+.hero-buttons .btn {
+  width: 100%;
+  text-align: center;
 }
 
-/* For Small Screens */
-@media (min-width: 576px) {
-  .landing-title {
-    font-size: 2rem;
-  }
-
-  .landing-subtitle {
-    font-size: 1rem;
-  }
-
-  .btn-cta {
-    padding: 12px 30px;
-    font-size: 1rem;
-  }
+.btn-primary-custom,
+.btn-secondary-custom {
+  padding: 0.9rem 1.5rem;
+  border-radius: 999px;
+  font-weight: 600;
+  transition: all 0.25s ease;
 }
 
-/* For Medium/Tablets */
+.btn-primary-custom {
+  background: var(--color-accent);
+  color: var(--color-primary);
+}
+
+.btn-primary-custom:hover {
+  opacity: .95;
+  transform: translateY(-2px);
+}
+
+.btn-secondary-custom {
+  border: 1px solid rgba(91, 89, 89, 0.15);
+  color: var(--color-secondary);
+}
+
+.btn-secondary-custom:hover {
+  background: rgba(255,255,255,.05);
+  transform: translateY(-2px);
+}
+
+/* ===========================
+   Expertise
+=========================== */
+
+.expertise-box {
+  margin-top: 3rem;
+}
+
+.expertise-title {
+  font-size: .8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .15em;
+  color: var(--color-tertiary);
+  margin-bottom: 1.25rem;
+}
+
+.expertise-item {
+  display: flex;
+  align-items: center;
+  gap: .9rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid rgba(255,255,255,.08);
+  color: var(--color-secondary);
+  font-weight: 500;
+}
+
+.expertise-item span {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--color-accent);
+  flex-shrink: 0;
+}
+
+/* ===========================
+   Tablet
+=========================== */
+
 @media (min-width: 768px) {
-  /* Landing Section */
+
+  .landing-section {
+    padding: 150px 0 110px;
+  }
+
   .landing-title {
-    font-size: 2.7rem;
+    font-size: 3.5rem;
   }
 
   .landing-subtitle {
-    font-size: 1.1rem;
+    font-size: 1.15rem;
   }
+
+  .landing-description {
+    font-size: 1rem;
+  }
+
+  .hero-buttons {
+    flex-direction: row;
+  }
+
+  .hero-buttons .btn {
+    width: auto;
+  }
+
 }
 
-/* For desktop */
+/* ===========================
+   Desktop
+=========================== */
+
 @media (min-width: 992px) {
-  /* Landing Section */
+
   .landing-section {
-    padding: 150px 0;
-  }
-
-  .photo-holder {
-    width: 10rem;
-    height: 10rem;
-    padding: 1.1rem;
-  }
-
-  .landing-intro {
-    font-size: 1.4rem;
+    padding: 180px 0;
   }
 
   .landing-title {
-    font-size: 3.7rem;
-    padding: 0;
+    font-size: 4rem;
   }
 
   .landing-subtitle {
     font-size: 1.2rem;
-    padding: 0;
   }
+
+  .landing-description {
+    font-size: 1.05rem;
+    max-width: 650px;
+  }
+
+  .expertise-box {
+    max-width: 360px;
+    margin-left: auto;
+    margin-top: 0;
+  }
+
 }
+
 </style>

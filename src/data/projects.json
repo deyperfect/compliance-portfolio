@@ -42,6 +42,6 @@
         "image": "/images/compliance.webp",
         "alt": "Regulatory Compliance Specialization Projects Thumbnail",
         "link": "/regulatory-compliance",
-        "external": true
+        "external": false
     }
 ]

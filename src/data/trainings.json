@@ -1,16 +1,20 @@
 [
     {  
         "id": 1,
-        "title": "AML/CFT Fundamentals",
-        "image": "/images/dashboard.webp",
-        "alt": "AML/CFT Fundamentals Certificate Thumbnail",
+        "title": "AML/CTF Fundamentals",
+        "issuer": "Anti-Money Laundering Council (AMLC)",
+        "date": "12-04-2025",
+        "image": "/images/amlcft.webp",
+        "alt": "AML/CTF Fundamentals Certificate Thumbnail",
         "link": "https://amlctftrainings.thinkific.com/certificates/tdnr1d9r4a",
         "external": true
     },
     {
         "id": 2,
         "title": "Regulatory Compliance Specialization",
-        "image": "/images/collections.webp",
+        "issuer": "Coursera",
+        "date": "12-07-2025",
+        "image": "/images/coursera.webp",
         "alt": "Regulatory Compliance Specialization Certificate Thumbnail",
         "link": "https://www.coursera.org/account/accomplishments/specialization/BSC5M1MOG50E",
         "external": true
@@ -18,7 +22,9 @@
     {
         "id": 3,
         "title": "Certified in Governance, Risk and Compliance Information Session",
-        "image": "/images/did.webp",
+        "issuer": "ISC2",
+        "date": "03-12-2026",
+        "image": "/images/isc2.webp",
         "alt": "Certified in Governance, Risk and Compliance (CGRC) Information Session Certificate Thumbnail",
         "link": "https://drive.google.com/file/d/1xRapcZmYMK1dLxo9GCPYi5QLfSkRFt2o/view?usp=sharing",
         "external": true

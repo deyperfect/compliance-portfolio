@@ -54,7 +54,6 @@ npm run dev
 
 ## Future Improvements
 
-- Add dark mode
 - Enhance accessibility
 - Expand compliance project portfolio
 - Improve animations and transitions
